@@ -57,7 +57,7 @@ div#redes img,a {
 
 div#redes img:hover {
     border: 2px solid #ffffff9a;
-    transform: translate(-3px, -3px);
+    
     box-shadow: 5px 5px 10px #000000da;
-    transition: transform .3s border 1s;
+    
 }
