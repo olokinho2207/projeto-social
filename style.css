@@ -25,14 +25,14 @@ main {
 section#phone {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 53%;
     transform: translate(-50%, -50%);
-
-
     height: 627px;
     width: 311px;
     background:url(imagens/frame-iphone.png) no-repeat;
 }
+
+
 
 iframe#tela {
     width: 269px;
@@ -40,4 +40,24 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-}    
+}
+
+div#redes {
+    text-align: left;
+}
+
+div#redes img,a {
+    text-decoration: none;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px #00000060;
+}
+
+div#redes img:hover {
+    border: 2px solid #ffffff8f;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px #000000da;
+    transition: transform .3s border .5s;
+}
