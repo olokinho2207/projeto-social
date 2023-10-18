@@ -30,16 +30,17 @@ section#phone {
     height: 627px;
     width: 311px;
     background:url(imagens/frame-iphone.png) no-repeat;
+    background-size: cover;
 }
 
 
 
 iframe#tela {
-    width: 269px;
-    height: 471px;
-    position: relative;
     top: 80px;
     left: 22px;
+    width: 267px;
+    height: 471px;
+    position: relative;
 }
 
 div#redes {
@@ -57,7 +58,6 @@ div#redes img,a {
 
 div#redes img:hover {
     border: 2px solid #ffffff9a;
-    
     box-shadow: 5px 5px 10px #000000da;
-    
+    transition: transform .3s border .1s;
 }
